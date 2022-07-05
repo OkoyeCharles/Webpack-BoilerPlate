@@ -16,5 +16,5 @@ module.exports = {
       }
     ]
   },
-  
+  plugins : [new htmlWebpackPlugin({template: "./src/template.html"})]
 }
