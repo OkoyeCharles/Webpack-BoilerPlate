@@ -4,7 +4,8 @@
   "description": "This is a simple yet powerful Webpack boilerplate, which i will use as a starting point in my projects.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
